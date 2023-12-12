@@ -1,0 +1,7 @@
+![Perceptual Bias in Multimodal Large Language Models](../images/perceptual_bias_mllms.png)
+
+## Perceptual Bias in Multimodal Large Language Models
+
+Abstract: Multimodal Large Language Models (LLMs) have recently achieved promising zero-shot accuracy on visual question answering (VQA) -- a fundamental task affecting various downstream applications and domains. Given the great potential for the broad use of these models, it is important to investigate their limitations in dealing with different image and question properties. In this project, we investigate whether multimodal LLMs can perceive small details as well as large details in images. In particular, we show that their zero-shot accuracy in answering visual questions is very sensitive to the size of the visual subject of the question.
+
+Publication: <i>Visual cropping improves zero-shot question answering of multimodal large language models.</i> <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/r0-fomo">NeurIPS 2023 R0-FoMo Workshop</a> <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/pdf/2310.16033.pdf">[Paper]</a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/saccharomycetes/visual_crop_zsvqa">[Code]</a>
