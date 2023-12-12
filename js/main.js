@@ -42,7 +42,7 @@ var publishList = [];
 const PUBLISH_SLACK = 10;
 const ROOT_JS_PATH = "js/";
 const ROOT_CONTENT_PATH = "projects/";
-const SOURCE_PATH = "https://github.com/mahyarkoy/koysite/blob/main/projects/";
+const SOURCE_PATH = "https://github.com/mahyarkoy/mahyarkoy.github.io/blob/main/projects/";
 var publishedSet = new Set();
 publishContent();
 
