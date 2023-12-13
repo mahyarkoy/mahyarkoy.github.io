@@ -162,7 +162,6 @@ async function publishFile(fileName) {
         "data-link": SOURCE_PATH + fileName + ".md",
         "title": "Open Source"
     }, events: {"click": openNewTab}});
-    spawnElement({type: "div", parent: sourceButton, classes: ["popup"], innerHTML: "Link copied!"});
     spawnElement({type: "img", parent: sourceButton, attributes: {
         "src": "images/new-arrow.svg",
         "alt": "Open source",
@@ -173,7 +172,10 @@ async function publishFile(fileName) {
     // Stich together
     textContainer.appendChild(buttonContainer);
     mainContainer.appendChild(textContainer);
-    document.body.appendChild(mainContainer);
+    const copyRightDiv = document.getElementById("copyRight");
+    console.log(copyRightDiv);
+    document.body.insertBefore(mainContainer, copyRightDiv);
+    // document.body.appendChild(mainContainer);
 }
 
 function spawnElement(kwargsInput) {
