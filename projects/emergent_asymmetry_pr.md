@@ -1,6 +1,6 @@
 ![Asymmetry in Metrics of Generative Performance](../images/emergent_asymmetry_pr.png)
 
-## Emergent Asymmetry of Precision and Recall for Measuring Generative Model's Performance
+## Emergent Asymmetry of Precision and Recall for Measuring Generative Models' Performance
 
 Abstract: Precision and Recall are two prominent metrics for measuring the performance of deep generative models, which were proposed to separately measure the fidelity and diversity of their generated samples, respectively. Given their prominent role in comparing and improving generative models, understanding their limitations is critical. In this project, we identify a critical flaw in the common approximation of these metrics using k-nearest-neighbors, namely, that the very interpretations of fidelity and diversity that are assigned to Precision and Recall can fail in high dimensions, resulting in very misleading conclusions.
 
