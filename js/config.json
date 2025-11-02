@@ -1,1 +1,1 @@
-{"paths": ["perceptual_bias_mllms", "strong_bias_removal", "emergent_asymmetry_pr", "dynamics_prediction_misalignment", "spectral_bias_gans", "geometric_bias_gans", "crowd_aware_environment_design", "deepfake_detection"]}
+{"paths": ["perceptual_bias_mllms", "t2i_diversity", "emergent_asymmetry_pr", "dynamics_prediction_misalignment", "spectral_bias_gans", "geometric_bias_gans", "deepfake_detection", "crowd_aware_environment_design", "strong_bias_removal"]}
