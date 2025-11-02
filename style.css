@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300&family=Lora:wght@500&display=swap');
 /* * {
     border: 0.1rem solid black;
 } */
 
 html {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 body {
     margin: 0;
     font-family: 'Vazirmatn', sans-serif;
+    font-weight: 100;
 }
 
 p {

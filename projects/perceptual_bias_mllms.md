@@ -1,6 +1,6 @@
-![Perceptual Bias in Multimodal Large Language Models](../images/perceptual_bias_mllms.png)
+![Perception of Visual Details with Multimodal Large Language Models](../images/perceptual_bias_mllms.png)
 
-## Perceptual Bias in Multimodal Large Language Models
+## Perception of Visual Details with Multimodal Large Language Models
 
 Abstract: Multimodal Large Language Models (LLMs) have recently achieved state-of-the-art accuracy on visual question answering (VQA) and are rapidly being adopted in a broad range of computer vision applications. However, the limits of their visual perception remain unknown. In this project, we investigate whether multimodal LLMs can perceive small visual details in images. In particular, we show that their accuracy in answering visual questions is very sensitive to the size of the visual subject of the question, reveal several visual factors that contribute to this sensitivity, and develop methods to mitigate it.
 
