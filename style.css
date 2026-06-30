@@ -80,6 +80,10 @@ p {
 }
 
 .img-container > img {
+    border-radius: 5px;
+}
+
+.img-rounded > img {
     border-radius: 10px;
 }
 

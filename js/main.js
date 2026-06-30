@@ -28,7 +28,7 @@ async function readJson(jsonPath) {
 
 // Regex
 const img_url_re = /^!\[(.+)\]\(\.\.\/(images\/.+)\)/;
-const name_re = /^## ([a-zA-Z\s\(\)'-]+)/;
+const name_re = /^## ([a-zA-Z\s\d\(\)'-]+)/;
 const pub_re = /^Publication: (.+)/;
 const abs_re = /^Abstract: (.+)/;
 const url_re = /\[(.+)\]\((.+)\)/;
