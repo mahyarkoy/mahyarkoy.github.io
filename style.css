@@ -66,6 +66,19 @@ p {
     align-content: center;
 }
 
+.head-img-container {
+    /* background-color: blue; */
+    max-width: 20%;
+    min-width: 300px;
+    flex: auto;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
 .img-container {
     /* background-color: blue; */
     max-width: 30%;
@@ -83,7 +96,7 @@ p {
     border-radius: 5px;
 }
 
-.img-rounded > img {
+.head-img-container > img {
     border-radius: 10px;
 }
 
@@ -250,6 +263,12 @@ p {
         flex-direction: column;
     }
     .img-container {
+        max-width: 100%;
+        min-width: 0px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .head-img-container {
         max-width: 100%;
         min-width: 0px;
         margin-left: 1rem;
